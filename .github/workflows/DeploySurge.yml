@@ -9,7 +9,7 @@ jobs:
     name: My job
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to foo-bar.surge.sh
+      - name: Deploy to COVID19APPBYFAYYAZ.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'COVID19APPBYFAYYAZ.surge.sh'
