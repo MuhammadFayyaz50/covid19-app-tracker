@@ -12,7 +12,7 @@ jobs:
       - name: Deploy to foo-bar.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'foo-bar.surge.sh'
+          domain: 'COVID19APPBYFAYYAZ.surge.sh'
           project: '.'
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.SURGE_TOKEN }}
